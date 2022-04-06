@@ -1,0 +1,110 @@
+#▒█▒ █▒▐█▀█▒██░░░▒█▒█░▐█▀▀▀─░▐██▒██▄░▒█▌▒▄█▀▀█
+#▒█ ▒█▒▐█▄█▒██░░░▒█▒█░▐█░▀█▌─░█▌▒▐█▒█▒█░▒▀▀█▄▄
+#▒▀▄▄▀▒▐█░░▒██▄▄█▒▀▄▀░▐██▄█▌░▐██▒██░▒██▌▒█▄▄█▀
+#        Criado por ! $ yDrakiz !#0001
+#                Versão 1.0.0
+#         Reporte bugs em meu discord
+
+#  Permissões: [
+#       nmaquinas.give - Permissão para pegar ou givar maquinas e combustiveis.
+#       nmaquinas.comprar - Permissão para abrir o menu de compra de maquinas.
+#       nmaquinas.drops - Permissão para abrir o menu de drops de maquinas.
+#  ]
+#     Qualquer outra dúvida solicite ajuda em meu discord
+#
+#
+#
+
+
+# Informações das maquinas nos inventários
+Configurações:
+  # Idioma do plugin, confira em /nmaquinas/languages
+  Linguagem: pt-BR
+Informações:
+  Maquinas:
+    # Deixe true para ativar o menu /maquinas, onde as maquinas serão vendidas
+    Vender: true
+    # Deixe false para dropar no chão ou true para armazenar na maquina.
+    Armazem: true
+
+
+Maquinas:
+  Carvao:
+    # Nome da maquina, aparecerá no holograma.
+    Nome: "&8Maquina de Carvão"
+    # Descrição da maquina
+    Descrição:
+      - "&7Uma simples maquina de testes."
+      - ""
+      - "&e➥ Raridade: &7Básica"
+      - "&e➥ Preço: &a@Preço"
+      - "&e➥ Valor do Drop: &a@Drop"
+      - "&e➥ Nível Máximo: &b@Nivel"
+      - "&8Maquinas geram minérios para você vender."
+    # Tempo maximo que podera ser adicionado a maquina
+    Tempo: 60 # Minutos
+    # Deixe true para armazenar maquinas em um bloco só
+    Stack: true
+    # Defina o preço da maquina para o /maquinas, loja de maquinas.
+    Preço: 50000
+    # Defina o maximo de maquinas em um lugar só
+    Stack-Máximo: 100
+    Niveis:
+     # Nível máximo que a maquina pode atingir
+     Máximo: 50
+     # Custo por nível, aumenta cada vez que a maquina subir de nível
+     Custo: 500000
+     # Atributos que serão adicionados
+     Atributos:
+       # Diminuir o delay entre os drops da maquina.
+       Velocidade: 0.5
+       # Aumento na quantidade de drops da maquina.
+       Drops: 1
+       # Diminui o consumo de combustivel/litros da maquina
+       Consumo: 0.5
+    # Defina o tipo de combustivel aceito, m - Tempo, l - Litros
+    Combustivel: l
+    # Delay entre os drops da maquina
+    Delay: 5 # Segundos
+    # Icone da maquina, qualquer item é válido.
+    Icone: COAL
+    # Bloco da maquina, apenas blocos podem ser usados, para usar uma cabeça deixe HEAD.
+    Bloco: HEAD
+    # Url da textura que sera usada na cabeça.
+    Url: "a67b47fbd37c6d9d8d22d973e7290e80852e9266a076fb7ab215afe91b81ed6c"
+    # Valor de venda dos drops da maquina
+    Valor: 5
+    # Drops da maquina, todos serão dropados juntos.
+    Drop: COAL
+
+Combustiveis:
+  # Id do item
+  5Minutos:
+    # Nome do item
+    Nome: "&eCombustível - 5 Minutos"
+    # Tipo do item
+    Icone: BLAZE_ROD
+    # Preço do combustivel em /combustiveis, loja de combustivel.
+    Preço: 1000
+    # Tipo de combustivel, m - Tempo, l - Litros
+    Tipo: "m"
+    # Descrição do combustivél
+    Descrição:
+      - "&7Combustivel para maquinas."
+      - ""
+      - "&e➥ Preço: &a@Preço"
+      - "&e➥ Quantidade: &b@Quantidade"
+      - "&8Combustivel mantem suas maquinas vivas."
+    Quantidade: 1 # Minuto
+  5Litros:
+    Nome: "&eCombustível - 5 Litro"
+    Icone: COAL
+    Preço: 1000
+    Tipo: "l"
+    Descrição:
+      - "&7Combustivel para maquinas."
+      - ""
+      - "&e➥ Preço: &a@Preço"
+      - "&e➥ Quantidade: &b@Quantidade"
+      - "&8Combustivel mantem suas maquinas vivas."
+    Quantidade: 5 # Litro

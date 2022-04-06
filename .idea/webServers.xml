@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c74b7bfc-4c49-49a7-8963-f69810156820" name="Nix">
+        <fileTransfer rootFolder="/plugins" accessType="SFTP" host="panel.nixhosting.tk" port="2022" sshConfigId="afb49f00-3f88-40cb-8f40-2be8e4e979eb" sshConfig="ydrakiz.d0deea42@panel.nixhosting.tk:2022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

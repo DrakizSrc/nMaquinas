@@ -1,0 +1,48 @@
+﻿# Preenchar o inventário com o item escolhido.
+Preencher:
+  Item: ""
+  Ativado: false
+Status:
+  Nome: "&eClique para alterar o status da maquina"
+  Icone: MAQUINA # Deixe "MAQUINA" para o bloco da maquina ser o icone, ou use outro.
+  Slot: 11
+  Descrição:
+    - ""
+    - "&7Informações da maquina:"
+    - " &eStatus: @Status"
+    - " &eTempo Restante: @Tempo"
+    - "&8Clique para altera-lo"
+    - " &eQuantidade: &b@Quantidade"
+    - " &eNivel: &b@Nivel"
+Drops:
+  Slot: 13
+  SEM-ITENS:
+    Nome: "&cNenhum drop armazenado aqui."
+    Icone: "STRING"
+  COM-ITENS:
+    Nome: "&7Informações do Drop"
+    Icone: DROP # Deixe "DROP" para usar o drop da maquina como icone, ou use outro.
+    Descrição:
+      - ""
+      - " &eQuantidade: &7@Quantidade"
+      - " &eValor de Venda: &a@Valor"
+      - "&8Clique com o ESQUERDO para vender."
+Holograma:
+  Nome: "&eClique para alterar o status do holograma"
+  Icone: "ENDER_PEARL"
+  Slot: 15
+  Descrição:
+    - ""
+    - "&7Informação do holograma:"
+    - "&eStatus: @Status"
+Nivel:
+  Nome: "&eClique para subir o nivel da maquina."
+  Icone: "EXP_BOTTLE"
+  Slot: 16
+  Descrição:
+    - ""
+    - "&7Preço para atualizar: &a@Valor"
+    - "&8Atributos:"
+    - " &eVelocidade: &a@Velocidade ▲"
+    - " &eDrops: &a@Drops ▲"
+    - " &eConsumo: &a@Consumo ▼"

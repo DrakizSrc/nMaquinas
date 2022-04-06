@@ -1,0 +1,49 @@
+PLUGIN-PREFIX: "&b[nMaquinas]"
+COMANDO-INCORRETO:
+  - ""
+  - "&b[&lnMaquinas&l] - Comandos"
+  - ""
+  - " &e- /maquinas get (nomeMaquina) (quantidade) &a# Use para obter uma quantidade de maquinas."
+  - " &e- /maquinas give (nick) (nomeMaquina) (quantidade) &a# Use para enviar uma quantidade de maquinas ao jogador."
+  - " &e- /maquinas listar &a # Use para listar as maquinas disponiveis."
+  - " &e- /combustivel get (nomeCombustivel) (quantidade) &a# Use para obter uma quantidade de combustivel."
+  - " &e- /combustivel give (nick) (nomeCombustivel) (quantidade) &a# Use para enviar uma quantidade de combustivel ao jogador."
+  - " &e- /combustivel listar &a # Use para listar os combustiveis disponiveis."
+  - ""
+SEM-PERMISSÃO: "&b[nMaquinas] &cVocê não tem permissão para isso."
+SEM-PERMISSÃO-MAQUINA: "&b[nMaquinas] &cVocê não tem permissão para interagir com essa maquina."
+MAQUINA-CHEIA: "&b[nMaquinas] &aEssa maquina não pode receber mais combustivel."
+COMBUSTIVEL-INCORRETO: "&b[nMaquinas] &cEsse combustivel não é válido para essa maquina."
+MAQUINA-STACK-CHEIO: "&cO limite de maquinas foi atingido"
+FALHA-COMPRA-DINHEIRO: "&c§lFALHA! &cvocê não tem @Valor para comprar isso."
+FALHA-COMPRA-VALOR: "&c§lFALHA! &cvocê não inseriu um valor válido para a compra."
+FALHA-COMPRA-STACK: "&cFALHA! &cvocê ultrapassou o limite de stack da maquina."
+SUCESSO-COMPRA: "&a&lSUCESSO! &avocê comprou @Quantidadex @Compra por @Valor."
+Menus:
+  Informações:
+    Player:
+      Nome: "&7Suas Informações"
+      Icone: "BEACON"
+      Descrição:
+        - "&e➥ Maquinas no Mundo: &b@Maquinas"
+        - "&e➥ Gastos com Maquinas: &a@Gastos"
+        - "&e➥ Dinheiro Atual: &a@Money"
+    Drops:
+      Nome: "&7Seus Drops"
+      Icone: "STORAGE_MINECART"
+      Descrição:
+        - " &eClique para abrir o menu de drops"
+        - " &eGerencie seus drops a distância!"
+        - "&8Venda tudo com apenas um clique."
+    Maquinas:
+      Nome: "&7Loja de Maquinas"
+      Icone: "GOLD_INGOT"
+      Descrição:
+        - " &eClique para abrir a loja de maquinas"
+        - " &eObtenha as melhores maquinas aqui!"
+    Combustiveis:
+      Nome: "&7Loja de Combustiveis"
+      Icone: "COAL"
+      Descrição:
+        - " &eClique para abrir a loja de combustiveis"
+        - " &eO coração das maquinas está aqui!"
