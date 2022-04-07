@@ -49,7 +49,7 @@ Um simples plugin de maquinas para o seu servidor!
  <tr>
   <td>/fuel get</td>
   <td>nmaquinas.give</td>
-  <td>Pegar uma combustivel sem custos.</td>
+  <td>Pegar um combustivel sem custos.</td>
  </tr>  
  </tr>
    <tr>
